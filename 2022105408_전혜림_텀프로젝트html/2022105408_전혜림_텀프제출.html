@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2022105408 Term Project</title>
+	<link rel="stylesheet" type="text/css" href="termproject1_background.css">
+</head> 
+	<meta charset="UTF-8">
+	
+<body>
+<H3 style="font-size:130%; color:green"> << This is "Term Project KHU 2022105408 전혜림" >> </H3> <br>
+
+(만약 <b>이미지와 배경색의 깨짐 현상이 발생할 경우,</b> 함께 제공된 파일의 이미지와 배경색 노트코드(텀프제출html 파일을 제외한 나머지 모든 파일)<br>를 클릭하셔서 모두 한번씩 열고 닫아주신 후, 다시 텀프제출 html을 실행시켜주시기 바랍니다.)
+<br>
+<br>
+<br>
+<img src= "movieshotscreen.png"; style="float:left">
+<p> <b>About:</b> 빠른 인터넷 성장과 다양한 미디어 콘텐츠들의 발달로 셋톱박스, OTT(Over the Top) 서비스가 전세계적으로 발전하고 있다.<br>  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 제공되는 다양한 OTT서비스의 수많은 미디어 콘텐츠들을 <em>한 곳에 집합하여 순위를 매기는 등</em> 한눈에 분석할수 있고,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 특정 기준에 맞춰 <em>추천 영화와 그 영화의 해당 플랫폼 목록</em>을 제공받을 수 있으며,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 개인이 소장하여 <em>자유롭게 기록할 공간</em>이 모두 있는 <b>"개인맞춤형 콘텐츠 라이브러리"</b>를 제작하였다. </p>
+
+<img src= "picture_for_tp.png"/>
+
+<table border="1" style="background-color: BurlyWood; border:solid;">
+<tr>
+<td>&nbsp;&nbsp;Button [No.1]&nbsp;&nbsp;</td><td>&nbsp; 다양한 OTT 플랫폼 미디어영상의 순위&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;Button [No.2]&nbsp;&nbsp;</td><td>&nbsp; 영화 추천받기 (장르에 따라)&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;Button [No.3]&nbsp;&nbsp;</td><td>&nbsp; 영화 추천받기 (오늘의 분위기에 따라)&nbsp;&nbsp;</td>
+<tr>
+<td>&nbsp;&nbsp;Button [No.4]&nbsp;&nbsp;</td><td>&nbsp; 개인용 미디어 라이브러리&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<br>
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+<br>
+
+	<script type="text/javascript">
+	function buttonnumberone()
+	{document.getElementById("para").innerHTML = "&nbsp;<b> 2021에 높은 시청률을 자랑한 대표 OTT의 미디어 영상 순위 </b> <br><b>&nbsp;1위.</b> 모아나 <br><b>&nbsp;2위.</b> 겨울왕국2<br><b> &nbsp;3위.</b> 오징어게임<br><b> &nbsp;4위.</b> 겨울왕국1<br><b> &nbsp;5위.</b> 루카<br><b> &nbsp;6위.</b> 어벤져스:엔드게임<br><b> &nbsp;7위.</b> 종이의 집<br><b> &nbsp;8위.</b> 뤼팽<br><b> &nbsp;9위.</b> 브리저튼<br><b>10위.</b> 뉴 암스테르담<br><b>11위.</b> 레드 노티스<br><b>12위.</b> 오늘부터 히어로<br><b>13위.</b> 해리포터와 마법사의 돌<br><b>14위.</b> 잭스나이더의 저스티스 리그<br><b>15위.</b> 아미 오브 더 데드<br><b>16위.</b> 위시 드래곤<br><b>17위.</b> 프렌즈:더 리뉴니언<br><b>18위.</b> 아미 오브 더 데드:도둑들<br><b>19위.</b> 원더우먼 1984<br><b>20위.</b> 테넷<br><br>* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  ~ ~ ~ ~ ~ ~ *";}
+		</script>
+<H2> (1) Button [No.1] </H2>
+<b style="color: DarkRed;">※ 이곳은 2021년의 다양한 OTT 플랫폼에서의 높은 미디어 시청률 순위를 한 곳에 정리한 챕터입니다. ※</b> <br>(OTT 플랫폼은 <b>Netflix, Disney+, HBO</b>를 바탕, 전세계 시청률 순위 자료를 기준으로 하였습니다.) <br>
+<b>HOW TO:</b> 아래의 검은 버튼을 클릭한 후 다양한 OTT 플랫폼 미디어영상의 순위를 한눈에 확인하세요.<br><br>
+<button onclick="buttonnumberone();"style="background-color:Black; color:Gold; padding: 7px 13px; font-size:15px; font-weight: bold; cursor: pointer; border:2px solid;">Button No.1</button>
+<p id="para"></p>
+
+
+<br>
+
+
+	<script type="text/javascript">
+	function buttonnumbertwoone()
+	{document.getElementById("button2-1").innerHTML = "핑크색 버튼 중 하나를 선택해주세요 ";}
+		</script>
+	<script type="text/javascript">
+	function buttonnumbertwotwo()
+	{document.getElementById("button2-2").innerHTML = "주황색 버튼 중 하나를 선택해주세요 ";}
+		</script>
+	<script type="text/javascript">
+	function buttonnumbertwothree()
+	{document.getElementById("button2-1-1").innerHTML = "<b>***추천***</b><br><b>모아나</b> (Disney+) / <b>겨울왕국1</b> (Disney+) / <b>겨울왕국2</b> (Disney+)";}
+		</script>		
+	<script type="text/javascript">
+	function buttonnumbertwofour()
+	{document.getElementById("button2-1-2").innerHTML = "<b>***추천***</b><br><b> 위시 드래곤</b> (Netflix) / <b>루카</b> (Disney+)";}
+		</script>	
+	<script type="text/javascript">
+	function buttonnumbertwofive()
+	{document.getElementById("button2-2-1").innerHTML = "<b>***추천***</b><br><b>레드 노티스</b> (Netflix) / <b>해리포터와 마법사의 돌</b> (HBO) / <b>원더우먼 1984</b> (HBO)";}
+		</script>	
+	<script type="text/javascript">
+	function buttonnumbertwosix()
+	{document.getElementById("button2-2-2").innerHTML = "<b>***추천***</b><br><b> 아미 오브 더 데드</b> (Netflix) / <b>아미 오브 더 데드:도둑들</b> (Netflix) / <b>오징어게임</b> (Netflix) ";}
+		</script>	
+	<script type="text/javascript">
+	function buttonnumbertwoseven()
+	{document.getElementById("button2-2-3").innerHTML = "<b>***추천***</b><br><b> 어벤져스:엔드게임</b> (Disney+) / <b>잭스나이더의 저스티스 리그</b> (HBO) / <b>테넷</b> (HBO) ";}
+		</script>	
+	<script type="text/javascript">
+	function buttonnumbertwoeight()
+	{document.getElementById("button2-2-4").innerHTML = "<b>***추천***</b><br><b> 종이의 집</b> (Netflix) / <b>뤼팽</b> (Netflix) ";}
+		</script>
+	<script type="text/javascript">
+	function buttonnumbertwonine()
+	{document.getElementById("button2-2-5").innerHTML = "<b>***추천***</b><br><b>오늘부터 히어로</b> (Netflix) / <b>브리저튼</b> (Netflix) / <b>뉴 암스테르담</b> (Netflix) / <b>프렌즈:더 리뉴니언</b> (HBO) ";}
+		</script>		
+<H2>(2) Button [No.2]</H2>
+<b style="color: DarkRed;">※ 이곳은 장르에 따라 원하는 영화를 추천받는 챕터입니다. ※</b><br> (추천 영화는 2021 높은 시청자수를 보여준 OTT 플랫폼 (Netflix, Disney+, HBO)을 기준으로 하였습니다.)<br>
+<b>HOW TO:</b> 우선 두 파란색 버튼 중 하나를 선택하여 클릭한 후, 지시에 따라 장르를 택하시고 영화를 추천받으세요.<br><br>
+<button onclick="buttonnumbertwoone();"style="background-color:SkyBlue; color:SlateBlue; cursor: pointer; border:2px solid; border-radius:10px ">&nbsp;애니메이션&nbsp;</button>
+<b id="button2-1"></b>
+<button onclick="buttonnumbertwotwo();"style="background-color:SkyBlue; color:SlateBlue; cursor: pointer; border:2px solid;  border-radius:10px ">애니메이션X </button>
+<b id="button2-2"></b> <br><br>
+<button onclick="buttonnumbertwothree();"style="background-color:Plum; color:MidnightBlue; cursor: pointer; border:2px solid; ">뮤지컬</button> <p id="button2-1-1"></p>
+<button onclick="buttonnumbertwofour();"style="background-color:Plum; color:MidnightBlue; cursor: pointer; border:2px solid; ">&nbsp;&nbsp;모험&nbsp;&nbsp;</button>
+<p id="button2-1-2"></p>
+<button onclick="buttonnumbertwofive();"style="background-color:LightSalmon; color:Navy; cursor: pointer; border:2px solid; ">&nbsp;&nbsp;모험&nbsp;&nbsp;</button>
+<p id="button2-2-1"></p>
+<button onclick="buttonnumbertwosix();"style="background-color:LightSalmon; color:Navy; cursor: pointer; border:2px solid; ">스릴러</button>
+<p id="button2-2-2"></p>
+<button onclick="buttonnumbertwoseven();"style="background-color:LightSalmon; color:Navy; cursor: pointer; border:2px solid; ">&nbsp; &nbsp;SF&nbsp; &nbsp;</button>
+<p id="button2-2-3"></p>
+<button onclick="buttonnumbertwoeight();"style="background-color:LightSalmon; color:Navy; cursor: pointer; border:2px solid; ">&nbsp;&nbsp;범죄&nbsp;&nbsp;</button>
+<p id="button2-2-4"></p>
+<button onclick="buttonnumbertwonine();"style="background-color:LightSalmon; color:Navy; cursor: pointer; border:2px solid; ">드라마</button>
+<p id="button2-2-5"></p>
+
+
+<br>
+
+
+	<script type="text/javascript">
+	function buttonnumberthreeone()
+	{document.getElementById("button3-1").innerHTML = "<b>***추천***</b><br><b>레드 노티스</b> (Netflix) / <b>오늘부터 히어로</b> (Netflix) / <b>루카</b> (Disney+) / <b>해리포터와 마법사의 돌</b> (HBO) / <b>프렌즈:더 리뉴니언</b> (HBO)";}
+		</script>
+	<script type="text/javascript">
+	function buttonnumberthreetwo()
+	{document.getElementById("button3-2").innerHTML = "<b>***추천***</b><br><b>브리저튼</b> (Netflix) / <b>뉴 암스테르담</b> (Netflix)";}
+		</script>
+	<script type="text/javascript">
+	function buttonnumberthreethree()
+	{document.getElementById("button3-3").innerHTML = "<b>***추천***</b><br><b>위시 드래곤</b> (Netflix) / <b>모아나</b> (Disney+) / <b>겨울왕국1</b> (Disney+) / <b>겨울왕국2</b> (Disney+)";}
+		</script>
+	<script type="text/javascript">
+	function buttonnumberthreefour()
+	{document.getElementById("button3-4").innerHTML = "<b>***추천***</b><br><b>아미 오브 더 데드</b> (Netflix) / <b>아미 오브 더 데드:도둑들</b> (Netflix) / <b>오징어게임</b> (Netflix) / <b>종이의 집</b> (Netflix)";}
+		</script>
+	<script type="text/javascript">
+	function buttonnumberthreefive()
+	{document.getElementById("button3-5").innerHTML = "<b>***추천***</b><br><b>어벤져스:엔드게임</b> (Disney+) / <b>뤼팽</b> (Netflix) / <b>잭스나이더의 저스티스 리그</b> (HBO) / <b>원더우먼 1984</b> (HBO) / <b>테넷</b> (HBO)";}
+		</script>
+<H2>(3) Button [No.3]</H2>
+<b style="color: DarkRed;">※ 이곳은 오늘의 분위기에 따라 원하는 영화를 추천받는 챕터입니다. ※</b><br> (추천 영화는 2021 높은 시청자수를 보여준 OTT 플랫폼 (Netflix, Disney+, HBO)을 기준으로 하였습니다.)<br>
+<b>HOW TO:</b> 5가지 시청 테마 중 오늘의 분위기에 맞는 테마 하나를 선택하여 클릭한 후 영화를 추천받으세요.<br><br>
+<button onclick="buttonnumberthreeone();"style="background-color:OliveDrab; color:Bisque; padding: 10px 23px; font-size:13px; cursor: pointer; border:2px solid; border-radius:15px ">&nbsp; &nbsp;  &nbsp; &nbsp;가볍고 산뜻하게 보기 즐거운 분위기&nbsp; &nbsp;  &nbsp; &nbsp;</button>
+<p id="button3-1"></p>
+<button onclick="buttonnumberthreetwo();"style="background-color:OliveDrab; color:Bisque; padding: 10px 23px; font-size:13px; cursor: pointer; border:2px solid; border-radius:15px ">&nbsp; &nbsp; &nbsp;잔잔하게 빠져드는 깊은 여운의 분위기&nbsp; &nbsp; &nbsp;</button>
+<p id="button3-2"></p>
+<button onclick="buttonnumberthreethree();"style="background-color:OliveDrab; color:Bisque; padding: 10px 23px; font-size:13px; cursor: pointer; border:2px solid; border-radius:15px ">&nbsp;&nbsp;&nbsp;화려한 영상미로 둘러싸일 신비의 분위기&nbsp;&nbsp;&nbsp;</button>
+<p id="button3-3"></p>
+<button onclick="buttonnumberthreefour();"style="background-color:OliveDrab; color:Bisque; padding: 10px 23px; font-size:13px; cursor: pointer; border:2px solid; border-radius:15px  ">한순간도 놓칠 수 없이 쫄깃한 긴장의 분위기</button>
+<p id="button3-4"></p>
+<button onclick="buttonnumberthreefive();"style="background-color:OliveDrab; color:Bisque; padding: 10px 23px; font-size:13px; cursor: pointer; border:2px solid; border-radius:15px ">&nbsp; &nbsp;&nbsp;주인공 따라 심장이 뛰는 몰입형 분위기&nbsp; &nbsp; &nbsp;</button>
+<p id="button3-5"></p>
+
+<br>
+<H4> ※ 포스터 클릭 시 해당 미디어에 대한 예고편 또는 관련 OTT 사이트로 연결됩니다. ※</H4>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=CVzvVi0Hmrk';"><img style="float:left; cursor: pointer" src="모아나포스터.png"></button> &nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=Zi4LMpSDccc';"><img style="float:left; cursor: pointer" src="겨울왕국2포스터.png"></button> &nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/81040344';"><img style="float:left; cursor: pointer" src="오징어게임포스터.png"></button> &nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=FLzfXQSPBOg';"><img style="float:left; cursor: pointer" src="겨울왕국1포스터.png"></button> &nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=mYfJxlgR2jw';"><img style="float:left; cursor: pointer" src="루카포스터.png"></button> <br>
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=TcMBFSGVi1c';"><img style="float:left; cursor: pointer" src="어벤져스엔드게임포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/80192098';"><img style="float:left; cursor: pointer" src="종이의집포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/80994082';"><img style="float:left; cursor: pointer" src="뤼팽포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/80232398';"><img style="float:left; cursor: pointer" src="브리저튼포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/80241181';"><img style="float:left; cursor: pointer" src="뉴암스테르담포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/81161626';"><img style="float:left; cursor: pointer" src="레드노티스포스터.png"></button> <br>
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/80994666';"><img style="float:left; cursor: pointer" src="오늘부터히어로포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=VyHV0BRtdxo';"><img style="float:left; cursor: pointer" src="해리포터포스터.png"></button> &nbsp;	
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=vM-Bja2Gy04';"><img style="float:left; cursor: pointer" src="저스티스리그포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/81046394';"><img style="float:left; cursor: pointer" src="아미오브데드포스터.png"></button> &nbsp;	
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/81153694';"><img style="float:left; cursor: pointer" src="위시드래곤포스터.png"></button> &nbsp;	
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=VvKlM51Rgeo';"><img style="float:left; cursor: pointer" src="프렌즈리뉴니언포스터.png"></button> <br>
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/title/81185548';"><img style="float:left; cursor: pointer" src="아미오브도둑들포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=I6MNbt3qiOk';"><img style="float:left; cursor: pointer" src="원더우먼포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=8f0P6iEHOrY';"><img style="float:left; cursor: pointer" src="테넷포스터.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.netflix.com/kr/';"><img style="float:left; cursor: pointer" src="OTT넷플릭스.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.disneyplus.com/ko-kr/welcome/stream';"><img style="float:left; cursor: pointer" src="OTT디즈니플러스.png"></button> &nbsp;
+	<button type="button" onclick="location.href='https://www.hbo.com/';"><img style="float:left; cursor: pointer" src="OTTHBO.png"></button> &nbsp;
+	
+<br>
+<br>
+
+<H2>(4) Button [No.4]</H2>
+<b style="color: DarkRed;">※ 이곳은 자유로운 메모가 가능한 개인용 미디어 라이브러리 챕터입니다. ※</b><br>
+<b>HOW TO:</b> 시청 후 인상깊으셨던 미디어 영상의 제목, 출연 배우들, 감독, OTT 플랫폼의 이름 등을 자유롭게 기록하세요. <br>
+
+<p style= "color:DarkGreen; font-size:20px; font-weight: bold ;">&nbsp;&nbsp;&nbsp;&nbsp; You can <em>Freely</em> write down your own <em>favorite moives</em> DOWN HERE &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<img style="float:left;" src="chracter_holding_a_pen.png "/>
+<label for="memo;" style= "float:right; color:DarkGreen; font-size:20px; font-weight: bold ;"></label> <br><br>
+<textarea id="memo" style="background-color:Tan; border:3px solid;" cols="60" rows="29"></textarea>
+
+<br>
+	<input type="button" value="글쓰기" onclick="alert('사각사각사각사각');">  <input type="button" value="타이핑" onclick="alert('타닥타닥타다다닥타다닥');">  <input type="button" value="마우스" onclick="alert('딸깍딸깍딸깍');">  <input type="button" value="글쓰기 종료" onclick="alert('작성이 완료되었습니다');">
+	
+<br>	
+<br><br>
+<img src= "theendpicture.png"; style="float:left">
+<br>
+<br>
+<br>
+<br>
+	&nbsp;&nbsp;<input type="button" value=" Press this LAST button to END " onclick="alert('THE END. 감사합니다.');" style="background-color:White; color:Black; padding: 10px 20px; font-size:15px; cursor: pointer; border:1px solid; border-radius:20px">
+
+
+<br><br><br><br>
+<br>
+
+</body>
+
+</html>
